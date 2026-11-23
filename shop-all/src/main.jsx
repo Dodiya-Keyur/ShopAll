@@ -9,7 +9,7 @@ import App from "./App.jsx";
 
 // Pages
 import Home from "./pages/Home.jsx";
-import About from "./pages/about.jsx";
+import About from "./pages/About.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import Cart from "./pages/Cart.jsx";
 import Login from "./pages/Login.jsx";
@@ -138,7 +138,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
 	<StrictMode>
 		<ProductProvider>
-			<Provider store={ShopAllStore}> 
+			<Provider store={ShopAllStore}>
 				<RouterProvider router={router} />
 			</Provider>
 		</ProductProvider>
